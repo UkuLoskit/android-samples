@@ -8,9 +8,6 @@ buildscript {
         classpath 'com.android.tools.build:gradle:1.3.0'
     }
 }
-task kana(dependsOn: ['app:testBlueReleaseUnitTestCoverage', 'app:assemble']) << {
-    println "lol"
-}
 
 allprojects {
     repositories {
